@@ -16,6 +16,6 @@ Sample proof-of-concept for demonstrating different testing types using k6
 ## Execution
 
 - Execute `./run.sh` from terminal or command-line
-- Github workflows are configured for every pull request and executes `smoke.js` to confirm smoke tests are passing without any issues
+- Github workflows are configured for every commit to trigger `smoke.js` confirm smoke tests are passing without any issues
 
 Note: This is a sample POC for covering different non-functional testing types and it is not a framework. Creation of framework should involves time and efforts as it has to follow good practices and standards :thumbsup:
