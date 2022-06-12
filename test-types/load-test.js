@@ -18,8 +18,8 @@ export let options = {
 };
 
 const BASE_URL = __ENV.BASE_URL;
-const USERNAME = "cvenkatreddy";
-const PASSWORD = "Deveshi#7";
+const USERNAME = __ENV.USERNAME;
+const PASSWORD = __ENV.PASSWORD;
 
 export default () => {
   let loginRes = http.post(`${BASE_URL}/auth/token/login/`, {
