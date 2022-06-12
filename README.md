@@ -1,3 +1,5 @@
+[![MacOS Workflow](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/main.yml)
+
 # proof-of-concept for usage of k6
 
 Sample proof-of-concept for demonstrating different testing types using k6
