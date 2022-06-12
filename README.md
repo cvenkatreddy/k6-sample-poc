@@ -1,5 +1,5 @@
 [![MacOS Workflow](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/main.yml)
-[![Windows Workflow](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/windows.yml/badge.svg?branch=main)](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/windows.yml)
+[![WindowsOS Flow](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/main.yml/badge.svg)](https://github.com/cvenkatreddy/k6-sample-poc/actions/workflows/main.yml)
 
 # proof-of-concept for usage of k6
 
