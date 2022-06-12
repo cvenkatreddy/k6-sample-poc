@@ -1,0 +1,18 @@
+name: MacOS Workflow
+on: [push]
+
+jobs:
+  k6_local_test:
+    name: k6 local test on macos
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install k6 by homebrew
+        run: brew install k6
+     
+      - name: Run k6 test
+        run: k6 run ./test-types/smoke-test.js -e BASE_URL=https://test-api.k6.io -e USERNAME=cvenkatreddy -e PASSWORD=Deveshi#7;
+        #run: k6 run ./test-types/load-test.js -e BASE_URL=https://test-api.k6.io -e USERNAME=cvenkatreddy -e PASSWORD=Deveshi#7; 
