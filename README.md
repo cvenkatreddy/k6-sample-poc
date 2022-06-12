@@ -1,6 +1,6 @@
-# POC for usage of k6
+# proof-of-concept for usage of k6
 
-Sample POC for demostrating different testing types using k6
+Sample proof-of-concept for demostrating different testing types using k6
 
 ## Pre-requisite Tools
 
