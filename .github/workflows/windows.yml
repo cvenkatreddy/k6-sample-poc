@@ -11,11 +11,9 @@ jobs:
         uses: actions/checkout@v1
 
       - name: download and extract k6 release binaries
-        run: |
-          curl -L https://github.com/loadimpact/k6/releases/download/v0.25.1/k6-v0.25.1-win64.zip -o k6.zip
-          7z.exe e k6.zip
+        run: winget install k6
         shell: bash
         
       - name: k6 test
-        run: k6 run ./test-types/smoke-test.js -e BASE_URL=https://test-api.k6.io -e USERNAME=cvenkatreddy -e PASSWORD=Deveshi#7
+        run: k6 run test-types/smoke-test.js -e BASE_URL=https://test-api.k6.io -e USERNAME=cvenkatreddy -e PASSWORD=Deveshi#7
         shell: bash
