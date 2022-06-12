@@ -1,0 +1,14 @@
+name: Load Test
+on: [pull_request] #[push, workflow_dispatch]
+
+jobs:
+  k6_load_test:
+    name: k6 Load Test
+    runs-on: ubuntu-latest
+    steps:    
+    - name: Checkout
+      uses: actions/checkout@v2
+     
+    - name: Run k6 test
+      run: k6 run ./test-types/api-test.js -e BASE_URL=https://test-api.k6.io -e USERNAME=cvenkatreddy -e PASSWORD=Deveshi#7;
+#       run: k6 run ./test-types/load-test.js -e BASE_URL=https://test-api.k6.io -e USERNAME=cvenkatreddy -e PASSWORD=Deveshi#7; 
