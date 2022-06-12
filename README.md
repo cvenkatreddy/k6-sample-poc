@@ -15,4 +15,4 @@ Sample POC for demostrating different testing types using k6
 
 - Execute `./run.sh` from terminal or command-line
 
-Note: This is a sample POC for covering different non-functional testing types and it is not a framework. Creation of framework should involves time and efforts as it has to follow good practices and standards :yes: :)
+Note: This is a sample POC for covering different non-functional testing types and it is not a framework. Creation of framework should involves time and efforts as it has to follow good practices and standards :thumbsup: 
