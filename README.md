@@ -9,7 +9,7 @@ Sample proof-of-concept for demostrating different testing types using k6
 
 ## Setup
 
-- Clone/Download the project from github
+- Clone/Download the project from github `https://github.com/cvenkatreddy/k6-sample-poc`
 
 ## Execution
 
